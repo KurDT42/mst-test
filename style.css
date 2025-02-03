@@ -1,5 +1,5 @@
  .header {
-     padding: 25px 0 0 266px;
+     padding: 25px 0 0 160px;
 
  }
 
@@ -52,7 +52,7 @@
 
  .price-order-desc {
      margin-top: 210px;
-     margin-left: 270px;
+     margin-left: 160px;
      max-width: 600px;
  }
 
@@ -145,9 +145,9 @@
  .price-order-img img {
      position: absolute;
      top: -110px;
-     right: -70px;
-    height: auto;
-      max-width: 70%; 
+     right: 0;
+     height: 90%;
+
  }
 
  .order-desc {
@@ -155,7 +155,7 @@
      margin-top: 87px;
      min-height: 100px;
      padding-top: 87px;
-     max-width: auto;
+     margin-left: -50px;
 
  }
 
@@ -164,7 +164,7 @@
      justify-content: space-between;
  }
 
- 
+
 
  .order-desc-list {
      margin: 0 53px 0 173px;
@@ -236,10 +236,10 @@
 
  .frame-form {
      background-color: #FFFFFF;
-     width: 1597px;
      height: 628px;
      margin-left: 162px;
      border-radius: 30px;
+     margin-right: 162px;
 
  }
 
@@ -260,8 +260,9 @@
 
  .order-form-photo {
      position: absolute;
-     right: -410px;
-     top: -629px;
+     margin-top: -590px;
+     right: 200px;
+     z-index: 1;
 
  }
 
@@ -393,4 +394,24 @@
      flex-direction: column;
      align-items: end;
      gap: 38px;
+ }
+
+ @media (max-width:1920px) {
+
+     .price-order-img img {
+         height: 700px;
+     }
+
+     .order-desc-box img {
+         height: 600px;
+     }
+
+     .order-desc-list-item {
+         font-size: 20px;
+         padding-top: 20px;
+     }
+
+     .price-order-title {
+         font-size: 70px;
+     }
  }
