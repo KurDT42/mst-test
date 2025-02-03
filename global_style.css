@@ -6,11 +6,13 @@
 
 body {
     background-color: #222222;
-    margin: 0 auto;
+    margin: 0;
     font-family: Raleway, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
     display: flex;
+    flex-shrink: 1;
+    max-width: 90vh;
 }
 
 
