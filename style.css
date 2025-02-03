@@ -452,6 +452,9 @@
      .footer-list-nav {
          padding: 40px 0 40px 514px;
      }
+     .order-form-desc{
+        max-width: 600px;
+     }
  }
 
  @media (max-width:1770px) {
@@ -493,8 +496,8 @@
 
  @media (max-width:1540px) {
      .price-order-img img {
-         height: 500px;
-         right: 30px;
+         height: 600px;
+         right: 10px;
      }
  }
 
